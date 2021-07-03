@@ -1,16 +1,12 @@
-import Head from 'next/head'
-import Link from 'next/link'
-
-import styles from '../styles/TopNav.module.css'
+import Head from "next/head";
+import Link from "next/link";
 
 function TopNav() {
-    return (
-        <div className={styles.TopNav}>
-            <p>
-                This is the best thing ever
-            </p>
-        </div>
-    )
+  return (
+    <div>
+      <p>This is the best thing ever</p>
+    </div>
+  );
 }
 
-export default TopNav
+export default TopNav;
