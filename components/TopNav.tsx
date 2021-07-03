@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function TopNav() {
   return (
-    <div>
+    <div className="text-purple-500">
       <p>This is the best thing ever</p>
     </div>
   );
