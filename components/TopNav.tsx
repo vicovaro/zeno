@@ -1,32 +1,44 @@
 import Link from "next/link";
 import Image from "next/image";
+import React, { useState } from 'react';
 
 import dogeLogo from "../public/doge_logo.png";
 
 function TopNav() {
+  // the following statement are for dropdown
+  const [isShown, setIsShown] = useState(false);
+
   return (
     <div className="flex items-center flex-wrap bg-gray-500 overflow-hidden w-screen">
-      <Link href="/">
-        <a>
-          <Image
-            className="center"
-            width="100"
-            height="100"
-            src={dogeLogo}
-            alt="PUT DOGE BACK"
-          />
-        </a>
-      </Link>
-      <div className="flex group inline-block relative">
-        <a className="p-4 text-center text-xl text-blue-100 font-light hover:text-blue-400">
-          products
-        </a>
-        <div className="absolute  z-10 hidden hover:block">
-          <p className="absolute block hover:block">Hello</p>
-        </div>
+      <div 
+        onMouseLeave={ () => setIsShown(false)}
+        onMouseEnter={ () => setIsShown(true)}>
+        <button className="p-4 font-light text-center text-xl text-blue-100">
+          hello
+        </button>
+        {isShown && (
+          <ul className="absolute bg-gray-500 font-light text-blue-100 z-10">
+            <li className="p-4">
+              <Link href="/warren">
+                Warren Buffet
+              </Link>
+            </li>
+            <li className="p-4">
+              <Link href="/doge">
+                DogeCoin
+              </Link>
+            </li>
+            <li className="p-4">
+              Hello, this is the first product
+            </li>
+            <li className="p-4">
+              Hello, this is the first product
+            </li>
+          </ul>
+        )}
       </div>
       <Link href="/">
-        <a className="p-4 text-center text-xl text-blue-100 font-light hover:text-blue-400">
+        <a className="p-4 font-light text-center text-xl text-blue-100 hover:text-blue-400">
           ratings
         </a>
       </Link>
