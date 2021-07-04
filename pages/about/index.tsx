@@ -1,7 +1,9 @@
+import TopNav from '../../components/TopNav'
+
 export default function About() {
   return (
     <div>
-      <a>yolo</a>
+      <TopNav></TopNav>
     </div>
   );
 }

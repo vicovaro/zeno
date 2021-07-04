@@ -1,7 +1,7 @@
 function MainLandingPage() {
     return (
-        <div>
-            
+        <div className="">
+            Hello everyone.
         </div>
     )
 }
