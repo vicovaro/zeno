@@ -8,14 +8,14 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col h-full">
-      <a className="flex-initial">
+    <div className="">
+      <a className="">
         <TopNav></TopNav>
       </a>
-      <a className="flex-auto h-full">
+      <a className="">
         <MainLandingBody></MainLandingBody>
       </a>
-      <a className="flex-none">
+      <a className="">
         <Footer></Footer>
       </a>
     </div>

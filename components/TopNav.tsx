@@ -51,8 +51,8 @@ function TopNav() {
       <p className="flex-grow"></p>
       {/* End of div for spacing */}
       <Link href="/">
-        <a className="mr-4 py-2 p-4 bg-blue-100 rounded-full font-bold text-center text-normal text-blue-400 transition duration-500 ease-in-out hover:text-blue-500">
-          login
+        <a className="mr-4 py-2 p-4 rounded-full text-xl transition duration-500 ease-in-out text-gray-700 hover:text-white bg-blue-300 hover:bg-blue-600">
+          Log In
         </a>
       </Link>
     </div>
