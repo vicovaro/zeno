@@ -18,20 +18,20 @@ function TopNav() {
         </button>
         {isShown && (
           <ul className="absolute bg-gray-100 font-light rounded-lg text-blue-300 z-10">
-            <li className="p-4">
+            <li className="p-4 hover:text-blue-400">
               <Link href="/warren">
                 Warren Buffet
               </Link>
             </li>
-            <li className="p-4">
+            <li className="p-4 hover:text-blue-400">
               <Link href="/doge">
                 DogeCoin
               </Link>
             </li>
-            <li className="p-4">
+            <li className="p-4 hover:text-blue-400">
               Hello, this is the first product
             </li>
-            <li className="p-4">
+            <li className="p-4 hover:text-blue-400">
               Hello, this is the first product
             </li>
           </ul>
