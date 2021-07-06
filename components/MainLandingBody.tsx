@@ -11,11 +11,30 @@ function MainLandingBody() {
                 </p>
                 <div className="p-10 self-center flex-grow flex">
                     <div className="flex-grow"></div>
-                    <div className="rounded-md shadow-md w-96 bg-white">
-                        <div className="relative self-center">
-                          <Image className="" objectFit="contain" quality={100} src={realEstateSample} alt="Sample of a real estate project to invest in" placeholder="blur" />
+                    <div className="w-96 relative rounded self-center">
+                      <Image className="rounded-lg" objectFit="contain" quality={100} src={realEstateSample} alt="Sample of a real estate project to invest in" placeholder="blur" />
+                      {/* Leave break-words as a safety mechanism if css fails somehow */}
+                      <div className="break-words rounded-lg p-2 text-xl bg-white">
+                        <p className="font-bold">Ahuntsic, QC</p>
+                        <p className="line-clamp-2">Projet de développement social de 200 appartements avec le financement de la BDC.</p>
+                        <div className="relative pt-1">
+                          <div className="flex mb-2 items-center justify-between">
+                            <div>
+                              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-emerald-600 bg-emerald-200">
+                                Task in progress
+                              </span>
+                            </div>
+                            <div className="text-right">
+                              <span className="text-xs font-semibold inline-block text-emerald-600">
+                                30%
+                              </span>
+                            </div>
+                          </div>
+                          <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-emerald-200">
+                            <div style={{ width: "30%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"></div>
+                          </div>
                         </div>
-                        <p className="self-center bg-white">Immobilier Aurora</p>
+                      </div>
                     </div>
                     <div className="flex-grow"></div>
                 </div>
