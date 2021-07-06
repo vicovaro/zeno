@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import realEstateSample from '../public/pexels-pixabay-534220.jpg'
+import realEstateSample from '@public/pexels-pixabay-534220.jpg'
 
 function MainLandingBody() {
     return (
@@ -13,7 +13,7 @@ function MainLandingBody() {
                     <div className="flex-grow"></div>
                     <div className="rounded-md shadow-md w-96 bg-white">
                         <div className="relative self-center">
-                          <Image objectFit="contain" quality={100} src={realEstateSample} alt="Sample of a real estate project to invest in" placeholder="blur" />
+                          <Image className="" objectFit="contain" quality={100} src={realEstateSample} alt="Sample of a real estate project to invest in" placeholder="blur" />
                         </div>
                         <p className="self-center bg-white">Immobilier Aurora</p>
                     </div>

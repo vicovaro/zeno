@@ -1,8 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
 import React, { useState } from 'react';
-
-import dogeLogo from "../public/doge_logo.png";
 
 function TopNav() {
   // the following statement are for dropdown
