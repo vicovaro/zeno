@@ -13,37 +13,37 @@ function TopNav() {
       <div 
         onMouseLeave={ () => setIsShown(false)}
         onMouseEnter={ () => setIsShown(true)}>
-        <button className={`p-4 font-light text-center text-xl text-blue-300 ${isShown ? "text-blue-400" : ""}`}>
+        <button className={`p-4 font-normal text-center text-xl text-blue-300 ${isShown ? "text-blue-400" : ""}`}>
           products
         </button>
         {isShown && (
-          <ul className="absolute bg-gray-100 font-light rounded-lg text-blue-300 z-10">
-            <li className="p-4 hover:text-blue-400">
+          <ul className="absolute bg-gray-100 font-normal rounded-lg text-blue-300 z-10">
+            <li className="p-4 font-normal hover:text-blue-400">
               <Link href="/warren">
                 Warren Buffet
               </Link>
             </li>
-            <li className="p-4 hover:text-blue-400">
+            <li className="p-4 font-normal hover:text-blue-400">
               <Link href="/doge">
                 DogeCoin
               </Link>
             </li>
-            <li className="p-4 hover:text-blue-400">
+            <li className="p-4 font-normal hover:text-blue-400">
               Hello, this is the first product
             </li>
-            <li className="p-4 hover:text-blue-400">
+            <li className="p-4 font-normal hover:text-blue-400">
               Hello, this is the first product
             </li>
           </ul>
         )}
       </div>
       <Link href="/">
-        <a className="p-4 font-light text-center text-xl text-blue-300 hover:text-blue-400">
+        <a className="p-4 font-normal text-center text-xl text-blue-300 hover:text-blue-400">
           ratings
         </a>
       </Link>
       <Link href="/about">
-        <a className="p-4 text-center text-xl text-blue-300 font-light hover:text-blue-400">
+        <a className="p-4 text-center text-xl text-blue-300 font-normal hover:text-blue-400">
           contacts
         </a>
       </Link>
