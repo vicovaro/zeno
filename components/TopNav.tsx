@@ -8,7 +8,7 @@ function TopNav() {
   return (
     <div className="flex items-center bg-white overflow-hidden shadow-md w-screen">
       {/* Empty div used to space and leave the logo */}
-      <div className="w-1/6"></div>
+      <div className="w-10"></div>
       <div 
         onMouseLeave={ () => setIsShown(false)}
         onMouseEnter={ () => setIsShown(true)}>
@@ -59,6 +59,7 @@ function TopNav() {
           Sign Up
         </a>
       </Link>
+      <div className="w-10"></div>
     </div>
   );
 }
