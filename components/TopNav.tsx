@@ -6,7 +6,7 @@ function TopNav() {
   const [isShown, setIsShown] = useState(false);
 
   return (
-    <div className="flex items-center bg-white shadow-md w-screen">
+    <div className="absolute w-screen flex items-center bg-white shadow-md">
       {/* Empty div used to space and leave the logo */}
       <div className="w-10"></div>
       <div 

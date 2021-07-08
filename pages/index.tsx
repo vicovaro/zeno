@@ -10,15 +10,15 @@ import Footer from "@components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-wrap mx-auto flex-col content-start	w-full">
+    <div className="flex justify-between flex-col content-start	w-full">
       <Head>
         <title>Zeno</title>
         <meta name="viewport"/>
       </Head>
-      <TopNav></TopNav>
-      <LandingPageBody1></LandingPageBody1>
-      <LandingPageBody2></LandingPageBody2>
-      <Footer></Footer>
+        <TopNav></TopNav>
+        <LandingPageBody1></LandingPageBody1>
+        <LandingPageBody2></LandingPageBody2>
+        <Footer></Footer>
     </div>
   );
 }
