@@ -1,32 +1,31 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 function TopNav() {
   // the following statement are for dropdown
   const [isShown, setIsShown] = useState(false);
 
   return (
-    <div className="flex items-center bg-white overflow-hidden shadow-md w-screen">
+    <div className="flex items-center bg-white shadow-md w-screen">
       {/* Empty div used to space and leave the logo */}
       <div className="w-10"></div>
-      <div
-        onMouseLeave={() => setIsShown(false)}
-        onMouseEnter={() => setIsShown(true)}
-      >
-        <button
-          className={`p-4 font-bold text-center text-xl text-blue-500 ${
-            isShown ? "text-blue-400" : ""
-          }`}
-        >
+      <div 
+        onMouseLeave={ () => setIsShown(false)}
+        onMouseEnter={ () => setIsShown(true)}>
+        <button className={`p-4 font-bold text-center text-xl text-blue-500 ${isShown ? "text-blue-400" : ""}`}>
           Products
         </button>
         {isShown && (
           <ul className="absolute bg-gray-100 font-normal rounded-lg text-blue-300 z-10">
             <li className="p-4 font-normal hover:text-blue-400">
-              <Link href="/warren">Warren Buffet</Link>
+              <Link href="/warren">
+                Warren Buffet
+              </Link>
             </li>
             <li className="p-4 font-normal hover:text-blue-500">
-              <Link href="/doge">DogeCoin</Link>
+              <Link href="/doge">
+                DogeCoin
+              </Link>
             </li>
             <li className="p-4 font-normal hover:text-blue-500">
               Hello, this is the first product

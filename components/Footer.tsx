@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div className="bg-black">
+        <div className="relative bg-black">
             Hello
         </div>
     )
