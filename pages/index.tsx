@@ -2,7 +2,8 @@ import React from "react";
 import Head from "next/head";
 
 import Header from "@components/Header";
-import ZenoHome from "@components/ZenoHome";
+import ZenoHomeBackgroundImage from "@components/ZenoHomeBackgroundImage";
+import ZenoHomeBody1 from "@components/ZenoHomeBody1";
 import Footer from "@components/Footer";
 
 export default function Home() {
@@ -17,8 +18,8 @@ export default function Home() {
       <Header></Header>
 
       {/* body */}
-      <main className="flex-grow">
-        <ZenoHome></ZenoHome>
+      <main className="relative">
+        <ZenoHomeBody1></ZenoHomeBody1>
       </main>
 
       {/* footer */}

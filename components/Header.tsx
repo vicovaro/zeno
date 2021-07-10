@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <div className="relative">
-      <div className="flex flex-wrap flex-col md:flex-row mt-4">
+      <div className="flex flex-wrap flex-col md:flex-row mt-4 mb-4">
         {/* Brand Logo */}
         <div className="font-bold text-4xl md:pl-6 pr-12">Zeno</div>
         {/* Top navigation options that stays on the left */}
