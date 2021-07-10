@@ -1,9 +1,5 @@
 function Footer() {
-    return (
-        <div className="absolute bg-black w-full">
-            Hello
-        </div>
-    )
+  return <div className="relative">Footer</div>;
 }
 
 export default Footer;

@@ -1,9 +1,5 @@
-import TopNav from '@components/TopNav'
-
-export default function About() {
-  return (
-    <div>
-      <TopNav></TopNav>
-    </div>
-  );
+function About() {
+  return <div>Welcome to about page</div>;
 }
+
+export default About;
