@@ -4,5 +4,5 @@
   "css.validate": false, // Disable css built-in lint
   "stylelint.enable": true, // Enable sytlelint
   "scss.validate": false,
-  "cSpell.words": ["heroicons", "semibold"] // Disable scss lint (optional if using scss)
+  "cSpell.words": ["heroicons", "semibold", "tailwindcss"] // Disable scss lint (optional if using scss)
 }
