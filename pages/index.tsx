@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="viewport" />
       </Head>
 
-      {/* topnav bar */}
+      {/* top navigation bar */}
       <Header></Header>
 
       {/* body */}
