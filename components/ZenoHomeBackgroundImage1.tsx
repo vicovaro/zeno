@@ -1,11 +1,11 @@
 import Image from "next/image";
 import landingPageImage from "@public/frederick-wallace-Bfz-FCsqv0Y-unsplash.jpg";
 
-function ZenoHomeBackgroundImage() {
+function ZenoHomeBackgroundImage1() {
   return (
     <div className="relative">
       {/* Background image floating in the background */}
-      <div className="fixed overflow-hidden w-screen h-screen">
+      <div className="block fixed overflow-hidden w-screen h-full z-0">
         <Image
           alt="Social housing"
           src={landingPageImage}
@@ -18,4 +18,4 @@ function ZenoHomeBackgroundImage() {
   );
 }
 
-export default ZenoHomeBackgroundImage;
+export default ZenoHomeBackgroundImage1;

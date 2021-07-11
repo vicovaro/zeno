@@ -4,6 +4,7 @@ import Head from "next/head";
 import Header from "@components/Header";
 import ZenoHomeBackgroundImage from "@components/ZenoHomeBackgroundImage";
 import ZenoHomeBody1 from "@components/ZenoHomeBody1";
+import ZenoHomeBody2 from "@components/ZenoHomeBody2";
 import Footer from "@components/Footer";
 
 export default function Home() {
@@ -15,14 +16,15 @@ export default function Home() {
       </Head>
 
       {/* Background images, it has to be first or everything breaks */}
-      <ZenoHomeBackgroundImage/>
+      <ZenoHomeBackgroundImage />
 
       {/* top and body div */}
-      <Header/>
-      <ZenoHomeBody1/>
+      <Header />
+      <ZenoHomeBody1 />
+      <ZenoHomeBody2 />
 
       {/* footer */}
-      <Footer/>
+      <Footer />
     </div>
   );
 }
