@@ -2,3 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Height of ZenoHomeBody1 without top navigation bar */
+.home-body-1-height {
+  height: calc(100vh - 72px);
+}

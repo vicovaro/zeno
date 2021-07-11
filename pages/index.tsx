@@ -14,16 +14,15 @@ export default function Home() {
         <meta name="viewport" />
       </Head>
 
-      {/* top navigation bar */}
-      <Header></Header>
+      {/* Background images, it has to be first or everything breaks */}
+      <ZenoHomeBackgroundImage/>
 
-      {/* body */}
-      <main className="relative">
-        <ZenoHomeBody1></ZenoHomeBody1>
-      </main>
+      {/* top and body div */}
+      <Header/>
+      <ZenoHomeBody1/>
 
       {/* footer */}
-      <Footer></Footer>
+      <Footer/>
     </div>
   );
 }
