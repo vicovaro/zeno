@@ -10,8 +10,9 @@ function ZenoHomeBody1() {
             real estate, as well as large scale housing projects all over
             Canada. Diverse your savings with
             <p className="inline text-blue-400"> alternative </p> investment
-            while making a <p className="inline text-green-500">positive </p>
-            impact with attractive return.
+            while making a positive impact with
+            <p className="inline text-green-500"> attractive </p>
+            return.
           </div>
         </div>
       </div>
