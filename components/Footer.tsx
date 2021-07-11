@@ -1,11 +1,8 @@
 function Footer() {
   return (
-  <div className="relative">    
-    <div className="text-white">
-      Footer
-      this is amazing
+    <div className="relative">
+      <div className="text-white bg-black">Footer to be done</div>
     </div>
-  </div>
   );
 }
 
