@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 
 import Header from "@components/Header";
+import LandingPageSection1 from "@components/LandingPageSection1";
 import Footer from "@components/Footer";
 
 export default function Home() {
@@ -16,7 +17,9 @@ export default function Home() {
       <Header />
 
       {/* Main content */}
-      <main className="relative"></main>
+      <main className="relative">
+        <LandingPageSection1 />
+      </main>
 
       {/* Footer <Footer /> */}
     </div>

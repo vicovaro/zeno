@@ -3,7 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Height of ZenoHomeBody1 without top navigation bar */
-.home-body-1-height {
-  height: calc(100vh - 72px);
+/* Height of top bar */
+/* Height of top bar + padding top and bottom */
+.top-bar-height {
+  height: calc(3rem + 2rem);
 }

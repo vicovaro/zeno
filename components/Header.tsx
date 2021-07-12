@@ -5,7 +5,7 @@ function Header() {
   const [isFeatured, setFeatured] = useState(false);
 
   return (
-    <div className="absolute inset-0 pt-4 z-10 w-full bg-white opacity-80">
+    <div className="absolute inset-0 p-4 w-full top-bar-height z-10">
       <div className="flex flex-wrap flex-col md:flex-row">
         {/* Brand Logo */}
         <div className="font-bold text-4xl md:pl-6 pr-12">Zeno</div>

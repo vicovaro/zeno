@@ -5,7 +5,7 @@ function ZenoHomeBackgroundImage() {
   return (
     <div className="relative">
       {/* Background image floating in the background */}
-      <div className="fixed overflow-hidden w-screen h-screen">
+      <div className="overflow-hidden w-screen h-screen">
         <Image
           alt="Social housing"
           src={landingPageImage}
