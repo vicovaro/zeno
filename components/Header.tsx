@@ -3,14 +3,12 @@ import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/solid";
 
 function Header() {
   const [isFeatured, setFeatured] = useState(false);
-  const [isBrowse, setBrowse] = useState(false);
-  const [isAbout, setAbout] = useState(false);
 
   return (
-    <div className="relative">
-      <div className="flex flex-wrap flex-col md:flex-row mt-4 mb-4">
+    <div className="absolute inset-0 pt-4 z-10 w-full bg-white opacity-80">
+      <div className="flex flex-wrap flex-col md:flex-row">
         {/* Brand Logo */}
-        <div className="font-bold text-white text-4xl md:pl-6 pr-12">Zeno</div>
+        <div className="font-bold text-4xl md:pl-6 pr-12">Zeno</div>
         {/* Top navigation options that stays on the left */}
 
         <div
@@ -20,7 +18,7 @@ function Header() {
         >
           {/* Featured button for hand picked projects */}
           <div className="flex flex-row">
-            <button className="align-middle text-white font-semibold transition duration-500 ease-in-out hover:text-blue-100">
+            <button className="align-middle font-semibold transition duration-500 ease-in-out hover:text-blue-100">
               Featured
             </button>
             {isFeatured ? (
@@ -45,19 +43,19 @@ function Header() {
           )}
         </div>
 
-        <button className="font-semibold text-white md:pr-6 hover:text-blue-100">
+        <button className="font-semibold md:pr-6 hover:text-blue-100">
           Browse
         </button>
-        <button className="font-semibold text-white md:pr-6 hover:text-blue-100">
+        <button className="font-semibold md:pr-6 hover:text-blue-100">
           About
         </button>
         {/* Empty div for resizing */}
         <div className="flex-grow"></div>
         {/* Log In and Sign Up button duo */}
-        <button className="font-semibold text-white py-2 px-4 transition duration-500 ease-in-out md:mr-6 hover:text-blue-100">
+        <button className="font-semibold py-2 px-4 transition duration-500 ease-in-out md:mr-6 hover:text-blue-100">
           Login
         </button>
-        <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded transition duration-500 ease-in-out md:mr-4 hover:bg-blue-700">
+        <button className="bg-blue-500 font-bold py-2 px-4 rounded transition duration-500 ease-in-out md:mr-4 hover:bg-blue-700">
           Sign Up
         </button>
       </div>
