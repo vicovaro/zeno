@@ -3,6 +3,7 @@ import Head from "next/head";
 
 import Header from "@components/Header";
 import LandingPageSection1 from "@components/LandingPageSection1";
+import LandingPageSection2 from "@components/LandingPageSection2";
 import Footer from "@components/Footer";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       {/* Main content */}
       <main className="relative">
         <LandingPageSection1 />
+        <LandingPageSection2 />
       </main>
 
       {/* Footer <Footer /> */}

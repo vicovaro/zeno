@@ -16,7 +16,7 @@ function LandingPageSection1() {
             return.
           </div>
         </div>
-        <div className="relative self-center pl-12 h-3/5">
+        <div className="relative self-center pl-12 h-4/5">
           <Image
             alt="Social housing"
             src={landingPageSection1Image}
